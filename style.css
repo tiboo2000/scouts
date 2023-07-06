@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  a {
+    display: block;
+    margin: 10px auto;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: red;
+    padding: 10px;
+  }
+
+  #logo:hover{
+    background-color: black;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 500px; /* Ajustez la taille de l'image selon vos besoins */
+  }
+  

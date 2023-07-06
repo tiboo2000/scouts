@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 500px; /* Ajustez la taille de l'image selon vos besoins */
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .button:hover {
+    background-color: red;
+  }
+  
+  #imageForm, #planetContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  #imageForm.hidden, #planetContainer.hidden {
+    display: none;
+  }
+  
+  #imageForm label, #imageForm input, #imageForm button {
+    margin-bottom: 10px;
+  }
+  
+  #submitButton {
+    padding: 10px 20px;
+  }
+  
+  #planetImage {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  #planetText {
+    font-size: 18px;
+  }
+  

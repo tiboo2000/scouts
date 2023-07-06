@@ -1,0 +1,22 @@
+/* style.css */
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.logo-link {
+    display: block;
+    margin: 20px auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px; /* Ajustez la taille de l'image selon vos besoins */
+}
+
+p {
+    font-size: 50px;
+    margin: 20px;
+}

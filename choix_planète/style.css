@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .logo-link {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 500px; /* Ajustez la taille de l'image selon vos besoins */
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin: 20px;
+  }
+  
+  input[type="number"],
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  input[type="number"]{
+    background-color: rgba(114, 114, 114, 0.429);
+  }
+  
+  button:hover {
+    background-color: red;
+  }
+  
